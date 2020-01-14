@@ -2043,7 +2043,8 @@ const PostLink = props => __jsx("li", {
   },
   __self: undefined
 }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-  href: `/post?title=${props.title}`,
+  href: "/p/[id]",
+  as: `/p/${props.id}`,
   __source: {
     fileName: _jsxFileName,
     lineNumber: 6
@@ -2055,7 +2056,7 @@ const PostLink = props => __jsx("li", {
     lineNumber: 7
   },
   __self: undefined
-}, props.title)));
+}, props.id)));
 
 const Blog = () => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
   __source: {
@@ -2076,21 +2077,21 @@ const Blog = () => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["defaul
   },
   __self: undefined
 }, __jsx(PostLink, {
-  title: "Hello Next.js",
+  id: "hello-Nextjs",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 16
   },
   __self: undefined
 }), __jsx(PostLink, {
-  title: "Learn Next.js is awesome",
+  id: "learn-Nextjs",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 17
   },
   __self: undefined
 }), __jsx(PostLink, {
-  title: "Another 3rd Post cause whatever",
+  id: "deploy-nextjs",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 18

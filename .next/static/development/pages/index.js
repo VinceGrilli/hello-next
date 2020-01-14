@@ -8470,7 +8470,8 @@ var PostLink = function PostLink(props) {
     },
     __self: this
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "/post?title=".concat(props.title),
+    href: "/p/[id]",
+    as: "/p/".concat(props.id),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
@@ -8482,7 +8483,7 @@ var PostLink = function PostLink(props) {
       lineNumber: 7
     },
     __self: this
-  }, props.title)));
+  }, props.id)));
 };
 
 var Blog = function Blog() {
@@ -8505,21 +8506,21 @@ var Blog = function Blog() {
     },
     __self: this
   }, __jsx(PostLink, {
-    title: "Hello Next.js",
+    id: "hello-Nextjs",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16
     },
     __self: this
   }), __jsx(PostLink, {
-    title: "Learn Next.js is awesome",
+    id: "learn-Nextjs",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 17
     },
     __self: this
   }), __jsx(PostLink, {
-    title: "Another 3rd Post cause whatever",
+    id: "deploy-nextjs",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 18
